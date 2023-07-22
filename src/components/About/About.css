@@ -1,0 +1,128 @@
+.About{
+    width: 1154px;
+    height: 583px;
+    margin: 0 auto;
+    position: relative;
+}
+.About h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.About h2 span{
+    color: linear-gradient(0deg, #000000, #000000), linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+}
+.cardWraper{
+    margin: 120px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.cardAbout{
+    width: 344px;
+    height: 414px;
+    text-align: left;
+    border-radius: 9px;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+    z-index: 100;
+}
+.cardAbout img{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.cardLabel{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin: 20px 33px 0 22px ;
+}
+.cardText{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #767676;
+    margin: 15px 33px 23px 22px;
+}
+.fon{
+    position: absolute;
+    top: 164px;
+    left: 0px;
+}
+
+@media screen and (width <1400px ) {
+    .About{
+        width: 612px;
+        height: 1196px;
+    }
+    .About h2{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .cardWraper{
+        display: block;
+    }
+    .cardAbout{
+        width: 594px;
+        height: 313px;
+        margin: 61px 0 0 0;
+    }
+    .cardAbout img{
+        width: 594px;
+        height: 160px;
+    }
+    .fon{
+        top: 164px;
+        left: -50px;
+    }
+}
+@media screen and (width < 768px){
+    .About{
+        width: 319px;
+        height: 1262px;
+    }
+    .About h2{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .cardAbout{
+        width: 264px;
+        height: 363px;
+    }
+    .cardAbout img{
+        width: 264px;
+    }
+    .cardLabel{
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .cardText{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .fon{
+        display: none;
+    }
+}

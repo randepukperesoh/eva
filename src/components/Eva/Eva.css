@@ -1,0 +1,200 @@
+.eva{
+    position: relative;
+    margin: 47px auto 0;
+    height: 704px;
+    width: 1267px;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+.flex{
+    display: flex;
+}
+.name{
+    margin: 10px 0 0 165px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.navigation{
+
+}
+.navmenu{
+    margin: 0 0 0 auto;
+}
+.navItem{
+    margin: 28px 0 0 25px;
+}
+.evaDecsription{
+
+}
+.bigText{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+}
+.smallText{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+}
+.orderBtn{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background: rgb(185,1,96);
+    background: linear-gradient(90deg, rgba(185,1,96,1) 0%, rgba(46,49,146,1) 100%);
+    width: 180px;
+    height: 53px;
+    border-radius: 7px;
+    margin: 15px 0 0 0;
+    border: none;
+}
+.cover{
+    position: absolute;
+    right: 68px;
+    bottom: 0;
+}
+.undercover{
+    position: absolute;
+    right: 0;
+    bottom: 88px;
+}
+.evaDecsription{
+    margin: 250px 0 0 0;
+    width: 676px;
+    text-align: left;
+}
+
+@media screen and (width < 1400px) {
+    .eva{
+        width: 715px;
+        height: 512px;
+    }
+    .navmenu{
+        display: none;
+    }
+    .evaDecsription{
+        margin: 0 auto;
+    }
+    .bigText{
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 414px;
+        margin: 72px 0 0 0;
+    }
+    .smallText{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .orderBtn{
+        width: 141px;
+        height: 42px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .cover{
+        top:0;
+        right: 0;
+        width: 368px;
+        height: 473px;
+    }
+    .undercover{
+        top: 38px;
+        width: 525px;
+        height: 368px;
+    }
+}
+@media screen and (width < 768px) {
+    .eva{
+        width: 321px;
+        height: 220px;
+    }
+    .logo{
+        width: 60px;
+        height: 36px;
+    }
+    .name{
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 137px;
+    }
+    .evaDecsription{
+        margin: 0 auto;
+        max-width: 321px;
+    }
+    .bigText{
+        text-align: center;
+        width: 194px;
+        height: 75px;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 38px auto 0;
+    }
+    .smallText{
+        text-align: center;
+        width: 320px;
+        height: 25px;
+    }
+    .orderBtn{
+        width: 93px;
+        height: 28px;
+        margin: 18px auto 0;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .cover{
+        display: none;
+    }
+    .undercover{
+        left: -30px;
+        width: 365px;
+        height: 256px;
+    }
+}

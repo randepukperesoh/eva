@@ -1,0 +1,17 @@
+.App {
+  min-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (width < 1400px) {
+  .App{
+    min-width: 768px;
+  }
+  
+}
+@media screen and (width < 768px) {
+  .App{
+    min-width: 321px;
+  }
+  
+}
