@@ -22,8 +22,8 @@ export default function Reviews() {
     let arrCard = cardsObj.map( (elem, id) => {
         return(
             <div key={'cardReviews' + id} className='ReviewsCard'>
-                    <div className='hexagon'><img src={'./'+ elem.img}/></div>
                     <div className='textWrapper'>
+                    <div className='hexagon'><img className='photoPeople' src={'./'+ elem.img}/></div>
                         <div className='textBlock'>{elem.text} </div>
                         <div className='border'></div>
                         <div className='author'>{elem.name}</div>

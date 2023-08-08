@@ -52,3 +52,55 @@
     text-align: left;
     color: #000000;
 }
+@media screen and ( width < 768px) {
+
+    .footer{
+        display: block;
+        height: 390px;
+        justify-content: unset;
+        
+    }
+    .socialBlock{
+        width: 224px;
+        margin: 61px auto 0;
+        text-align: center;
+    }
+    .phoneBlock{
+        width: 224px;
+        margin: 14px auto 0;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .aboutBlock{
+        width: 224px;
+        margin: 14px auto 0;
+        text-align: center;
+    }
+    .aboutText{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .phoneText{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .phoneText div{
+        margin: 10px 0 0 0;
+    }
+    .socialBlock img{
+        margin: 15px 0 10px 0;
+    }
+}

@@ -31,6 +31,13 @@
 }
 .navItem{
     margin: 28px 0 0 25px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #737373;
 }
 .evaDecsription{
 
@@ -159,7 +166,8 @@
     }
     .evaDecsription{
         margin: 0 auto;
-        max-width: 321px;
+        width: 321px;
+        position: relative;
     }
     .bigText{
         text-align: center;
@@ -179,9 +187,11 @@
         height: 25px;
     }
     .orderBtn{
+        position: absolute;
+        left: 33%;
         width: 93px;
         height: 28px;
-        margin: 18px auto 0;
+        
         font-family: Roboto;
         font-size: 10px;
         font-weight: 900;
@@ -193,8 +203,8 @@
         display: none;
     }
     .undercover{
-        left: -30px;
-        width: 365px;
+        left: 0px;
+        width: 319px;
         height: 256px;
     }
 }

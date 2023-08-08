@@ -5,7 +5,8 @@ export default function Footer() {
     return(
         <div className="footer">
             <div className='socialBlock'>
-                МЫ В СОЦИАЛЬНЫХ СЕТЯХ
+                <div>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</div>
+                <img src='./inst.png'/>
             </div>
             <div className='phoneBlock'>
                 <div>КОНТАКТНЫЕ ТЕЛЕФОНЫ</div>

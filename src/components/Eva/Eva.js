@@ -19,7 +19,7 @@ export default function Eva() {
                 <button className='orderBtn'>ЗАКАЗАТЬ</button>
             </div>
             <img className='cover' src='./cover.svg'/>
-            <img className='undercover'src='./undercover.svg'/>
+            <img width={319} className='undercover'src='./undercover.svg'/>
         </div>
     )
 }

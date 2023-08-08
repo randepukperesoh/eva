@@ -75,7 +75,7 @@
     .cardAbout{
         width: 594px;
         height: 313px;
-        margin: 61px 0 0 0;
+        margin: 61px auto 0;
     }
     .cardAbout img{
         width: 594px;
@@ -99,9 +99,13 @@
         letter-spacing: 0em;
         text-align: center;
     }
+    .cardWraper{
+        margin: 40px 0 0 0;
+    }
     .cardAbout{
         width: 264px;
-        height: 363px;
+        height: 374px;
+        margin: 30px auto 0;
     }
     .cardAbout img{
         width: 264px;

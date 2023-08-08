@@ -7,17 +7,18 @@ export default function Header() {
             <div className='headerItem'>
                 <img src='./phone.svg'/>
                 <div className='phone'>
-                    <div>{'+375 29 292-29-29 (VEL)'}</div>
-                    <div>{'+375 33 333-33-33 (МТС)'}</div>
+                    <div>+375 29 292-29-29 (VEL)</div>
+                    <div>+375 33 333-33-33 (МТС)</div>
                 </div>
             </div>
             <div className='headerItem'>
                 <img src='./pin.svg'/>
-                ваш город
+                <div>ваш город</div>
+                
             </div>
             <div className='headerItem'>
                 <img src='./inst.svg'/>
-                <span>посетите нашу страницу</span>
+                <div className='myInst'>посетите нашу страницу</div>
             </div>
         </header>
     )
