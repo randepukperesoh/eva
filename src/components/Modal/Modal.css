@@ -1,0 +1,122 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.modalForm{
+    width: 1180px;
+    height: 392px;
+    background: #FFFFFF;
+    margin: 276px auto 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+    position: relative;
+    z-index: 10;
+    
+}
+.smallInput{
+    width: 362.5px;
+    height: 51px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+    margin:45px 0 17px 0;
+}
+.smallInput:nth-child(1){
+    margin: 0 25px 0 0;
+}
+.bigInput{
+    width: 750px;
+    height: 82px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1
+}
+.sendBtn{
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+    width: 170px;
+    height: 34px;
+    border-radius: 9px;
+    display: block;
+    margin: 42px auto 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+}
+.formLabel{
+    margin: 0;
+    padding: 42px 0 0 0;
+}
+@media screen and (width < 1400px) {
+    .modalForm{
+        width: 635px;
+        height: 401px;
+    }
+    .modalForm div{ 
+        display: block;
+    }
+    .smallInput{
+        margin: 15px 0 0 0;
+        width: 432px;
+        height: 41px;
+    }
+    .smallInput:nth-child(1) {
+        margin: 15px 0 0 0;
+    }
+    .bigInput{
+        width: 432px;
+        height: 95px;
+        margin: 15px 0 0 0;
+    }
+}
+@media screen and (width < 768px) {
+    .modalForm{
+        top: -140px;
+    }
+    .formLabel{
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 27px 0 0 0;
+    }
+    .modalForm{
+        width: 267px;
+        height: 298px;
+    }
+    .smallInput{
+        margin: 15px 0 0 0;
+        width: 212px;
+        height: 20px;
+    }
+    .smallInput:nth-child(1) {
+        margin: 15px 0 0 0;
+    }
+    .bigInput{
+        width: 212px;
+        height: 95px;
+        margin: 15px 0 0 0;
+    }
+    .sendBtn{
+        width: 58px;
+        height: 18px;
+        border-radius: 4px;
+        font-family: Roboto;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 22px auto 0;
+    }
+}

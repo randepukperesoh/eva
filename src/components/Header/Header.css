@@ -53,9 +53,8 @@
         display: none;
     }
     .headerItem{
-        
         text-align: center;
-        width: 260px;
+        width: max-content;
         margin: 0 auto 0;
     }
     

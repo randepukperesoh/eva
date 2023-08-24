@@ -52,11 +52,20 @@
     text-align: left;
     color: #000000;
 }
+.socialBlock img{
+    margin: 10px 0 0 0;
+}
+
+@media screen and ( width < 1400px) {
+    .socialBlock img{
+        margin: 10px 0 0 0;
+    }
+}
 @media screen and ( width < 768px) {
 
     .footer{
         display: block;
-        height: 390px;
+        height: 240px;
         justify-content: unset;
         
     }
